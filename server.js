@@ -86,7 +86,6 @@ app.get('/data', (req, res) => {
                 women += 1;
         }
     }
-
     return res.status(200).json({ data: { men, women } })
 })
 
